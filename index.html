@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Survey Form</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="head">
+<h1 id="title" style="margin-top: 0px;">Automobile Survey Form</h1>
+<p id="description">This is a survey about your favourite automobiles(Cars)</p>
+ </div>
+
+<form id="survey-form">
+ <label id="name-label">Please Enter Your Name:</label> <br><br>
+ <input type="text" id="name" placeholder="Enter Name" required style="border-radius: 15px; padding: 4px;"></input> <br ><br>
+ <label id="email-label">Please Enter Your Email:</label><br> <br>
+ <input type="email"  id="email" placeholder="Enter Email" required style="border-radius: 15px; padding: 4px;"></input> <br><br>
+ <label id="number-label">Please Enter Your Mobile Number:</label> <br><br>
+ <input type="number"  id="number" placeholder="Number" min="0" max="10" required style="border-radius: 15px; padding: 4px;"></input>
+ <br>
+ <br>
+ <label id='manufacture'>Choose Your Favourite Car Manufacture:</label>
+ <br>
+ <select name="dropdown" id="dropdown" style="border-radius: 15px; padding: 4px;">
+  <option value="audi">Audi</option>
+  <option value="hyundai">Hyundai</option>
+  <option value="ford">Ford</option>
+  <option value="holden">Holden</option>
+  <option value="seat">Seat</option>
+  <option value="toyota">Toyota</option>
+ </select>
+ <br><br>
+ <label id="country_of_manufacture">Do you like ICE(Internal Combustion Engine) powered or electric cars?</label>
+ <br><br>
+ <input type="radio" name="ice" value="ice" id="ice">ICE<br>
+ <input type="radio" name="electric" value="electric" id="electric">electric<br>
+ 
+ <br><br>
+ <label id="check-box">Are You Sure The Above Options Are Correct?</label><br>
+ <input type="checkbox" name="yes" value="yes" id="">Yes <br>
+ <input type="checkbox" name="no" value="no" id="">No
+<br><br>
+<textarea name="" id="" cols="30" rows="10" placeholder="Additional Comments" style="border-radius: 15px; padding: 4px;"></textarea>
+<br><br>
+ <input type="submit" value="Submit" id="submit">
+</form>
+
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+</html>

@@ -1,0 +1,18 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+.head {
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+  padding-bottom: 20px;
+  margin: 0px 0px 0px 0px;
+}
+#survey-form {
+  padding: 10px 10px 10px 10px;
+  background-image: linear-gradient(#bdc3c7, #2c3e50);
+}
+label {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
